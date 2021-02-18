@@ -1,2 +1,2 @@
 # My-SchedUP
-Web Page Beta
+This version only works with local storage and cookies
