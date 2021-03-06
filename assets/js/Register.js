@@ -163,7 +163,7 @@ function AddStudent() {
 
     $.ajax({
       type: "POST",
-      url: "../services/db_SignUp.php",
+      url: "services/db_SignUp.php",
       data: {
         JSON: UserJsonParse
       },
