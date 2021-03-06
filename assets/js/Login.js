@@ -43,7 +43,7 @@ document.getElementById("logButton").addEventListener("click", function () {
 
     $.ajax({
       type: "POST",
-      url: "../services/db_Login.php",
+      url: "services/db_Login.php",
       data: { JSON: UserJsonParse },
     }).done(function (Result) {
       try {
