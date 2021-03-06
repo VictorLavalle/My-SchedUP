@@ -144,7 +144,7 @@ document.getElementById("IDNameUser").addEventListener("click", function () {
 
         $.ajax({
           type: "POST",
-          url: "../services/db_ModifyName.php",
+          url: "services/db_ModifyName.php",
           data: {
             "Data": DataParser
           },
