@@ -16,9 +16,6 @@ const expressions = {
 };
 
 
-
-
-
 //Delete the cookie session when the user click the logout button
 document.getElementById("LogOut").addEventListener("click", function () {
   User = {};
@@ -63,8 +60,6 @@ function ChangeDOMBySession(LoadUser) {
     AddSubjectToSchedule(User.UserSchedule[i]);
   }
 }
-
-
 
 
 //Functions to validate the inputs of a new subject
@@ -158,8 +153,6 @@ function getTextContentMessage(Field) {
 }
 
 
-
-
 //Function that loads the functions to add a subject when it's clicked
 document.getElementById("AddSubjectBTN").addEventListener("click", function () {
   validateRegister();
@@ -191,7 +184,7 @@ function AddSubject() {
 
   $.ajax({
     type: "POST",
-    url: "../services/db_AddSubject.php",
+    url: "services/db_AddSubject.php",
     data: {
       "JSON": SubjectParse
     },
@@ -214,10 +207,6 @@ function AddSubject() {
 
   });
 }
-
-
-
-
 
 
 //Functions to manipulate Cookies
@@ -381,7 +370,7 @@ $(document).ready(function () {
 
       $.ajax({
         type: "POST",
-        url: "../services/db_DeleteSubject.php",
+        url: "services/db_DeleteSubject.php",
         data: {
           "JSON": JSONDeleteSubjectParse
         },
