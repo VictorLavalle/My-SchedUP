@@ -14,4 +14,4 @@
 <br>
 *NOTE: There's no validation on the emails accounts but the password are encrypted so don't worry about it.
 <br>
-<h4>Try it!: http://myschedup.victorlavalle.me or https://myschedup.000webhostapp.com/</h4>
+<h4>Try it!: https://myschedup.000webhostapp.com/</h4>
