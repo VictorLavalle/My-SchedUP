@@ -12,8 +12,12 @@
     <link rel="stylesheet" href="assets/css/Cool-Navbar.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.13.2/sweetalert2.css" integrity="sha512-sdBlqIXiZQy6Z6WJXrCb6sQ3v1DF0x6qQghP56taypKGGuru3ANBhSFLePvcolfP8xCzVoNvhP8Smm29EH7eMQ==" crossorigin="anonymous" />
-    <link href="assets/img/favicon.png" rel="icon">
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="assets/img/favicon-dark.png" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="assets/img/favicon-light.png" type="image/png" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    
+    <script src="https://unpkg.com/favicon-switcher@1.2.2/dist/index.js" crossorigin="anonymous" type="application/javascript"></script>
+    
 </head>
 
 <body class="indexBody">
